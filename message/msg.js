@@ -1938,6 +1938,15 @@ case prefix+'logowolf2':
   conn.sendMessage(from, {caption: `Succes!`, image: {url: data.result}}, {quoted: msg})
   limitAdd(sender, limit)
   break
+case prefix+'ppcouple':
+  case prefix+'ppcp':
+    case prefix+'couple':
+    var data = await fetchJson(`https://melcanz.com/ppcouple?&apikey=melcantik`)
+    reply("Couplean sama aku yuk")
+conn.sendMessage(from, {caption: `Cowo`, image: {url: data.cowo}}, {quoted: msg})
+conn.sendMessage(from, {caption: `Cewe`, image: {url: data.cewe}}, {quoted: msg})
+limitAdd(sender, limit)
+break
 			default:
 			if (isGroup && isCmd) {
 				var but = [{buttonId: `/menu`, buttonText: { displayText: "MENU" }, type: 1 }]
