@@ -225,14 +225,14 @@ module.exports = async(conn, msg, m, setting) => {
 		}
 		//{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6281319944917` } },
 		const buttonsDefault = [
-			{ urlButton: { displayText: `GRUP JOJO-BOT`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
-			{ urlButton: { displayText: `Thanks To`, url : `ThanksTo\n- Riyan\n- Arasya` } },
+			{ urlButton: { displayText: `𝘚𝘰𝘶𝘳𝘤𝘦 𝘊𝘰𝘥𝘦`, url : `https://github.com/ai-man-123` } },
+			{ urlButton: { displayText: `Thanks To`, url : `ThanksTo\n- Riyan\n- Aiman` } },
 			{ quickReplyButton: { displayText: `💰 Donasi`, id: `${prefix}donate` } },
 			{ quickReplyButton: { displayText: `Pemilik Bot`, id: `${prefix}owner` } },
 		]
 		const button5 = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `0102810046` } },
+			{ urlButton: { displayText: `𝘚𝘰𝘶𝘳𝘤𝘦 𝘊𝘰𝘥𝘦`, url : `https://github.com/ai-man-123` } },
 			{ quickReplyButton: { displayText: `Back To Menu 🔙`, id: `${prefix}menu` } },
 		]
         
@@ -272,7 +272,7 @@ module.exports = async(conn, msg, m, setting) => {
 		    tebakgambar.splice(getGamePosi(from, tebakgambar), 1)
 		  }
 		}
-if (chats.startsWith("@6288213292687")){
+if (chats.startsWith("@60102810046")){
    conn.sendMessage(from, { audio: {url : `https://d.top4top.io/m_22231oj7h1.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
 if (chats.startsWith("eh")){
@@ -281,7 +281,7 @@ if (chats.startsWith("eh")){
 if (chats.startsWith("Eh")){
    conn.sendMessage(from, { audio: {url : `https://b.top4top.io/m_2223iin241.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
-if (chats.startsWith("Jojo")){
+if (chats.startsWith("Aiman")){
    conn.sendMessage(from, { audio: {url : `https://d.top4top.io/m_22231oj7h1.mp3`}, mimetype: 'audio/mp4', ptt: true}, {quoted: msg})
 }
 if (chats.startsWith("woy")){
@@ -342,21 +342,13 @@ case prefix+'donasiah':
 case prefix+'donasi':
   case prefix+'donate':
   var donasibut = [
-			{ callButton: { displayText: `Number Owner`, phoneNumber: `0813-1994-4917` } },
-			{ urlButton: { displayText: `𝙂𝙧𝙪𝙥 𝙅𝙤𝙟𝙤`, url : `https://chat.whatsapp.com/HECLovHbCI6LVVH4Q8FN2C` } },
+			{ callButton: { displayText: `Number Owner`, phoneNumber: `0102810046` } },
+			{ urlButton: { displayText: `𝘚𝘰𝘶𝘳𝘤𝘦 𝘊𝘰𝘥𝘦`, url : `https://github.com/ai-man-123` } },
 			{ quickReplyButton: { displayText: `Aku Ingin Donasi`, id: `${prefix}donasiah` } },
 		]
 var teks = `  │
-  ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
-  ├─ ❏ OVO
-  ├─ ❏ 088213292687
-  ├─ ❏ PULSA
-  ├─ ❏ 081319944917
-  ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
-  ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/sofunsyabi.jpg
+  ├─ ❏ Money
+  ├─ ❏ 0102810046
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`
@@ -364,7 +356,7 @@ var teks = `  │
 			    break
 case prefix+'sewa':
   case prefix+'daftarprem':
-  var teks = `*[ LIST HARGA JOJO PREM ]*
+  var teks = `*[ LIST HARGA AZ PREM ]*
 
 _Yakin kamu mau daftar ke premium?_
 
@@ -384,8 +376,8 @@ _Yakin kamu mau daftar ke premium?_
 			case prefix+'runtime':
 			    reply(runtime(process.uptime()))
 			    break
-case prefix+'groupjojo':
-  reply("Group 1\n\nhttps://chat.whatsapp.com/Chvc5ptPYDgJcxJxp5zbIc\nGroup 2\n\nhttps://chat.whatsapp.com/DqM488U5RvmGpsbTMfDbMv\nCobain Bot Telegram Jojo yuk!\nhttps://t.me/docsjojo_bot?start=help")
+case prefix+'startbot':
+  reply("bot?start=help")
   break
 			case prefix+'speed':
 			    let timestamp = speed();
@@ -396,16 +388,8 @@ case prefix+'groupjojo':
 			case prefix+'donasi':
 			    reply(`◪ DONASI
   │
-  ├─ ❏ GOPAY
-  ├─ ❏ 088213292687
-  ├─ ❏ OVO
-  ├─ ❏ 088213292687
-  ├─ ❏ PULSA
-  ├─ ❏ 081319944917
-  ├─ ❏ PULSA2
-  ├─ ❏ 088213292687
-  ├─ ❏ INSTAGRAM
-  └─ ❏ https://www.instagram.com/sofunsyabi.id
+  ├─ ❏ money
+  ├─ ❏ 0102810046
   
   Donasi Untuk Upgrade Ke Fitur Premium
   Note : Donasi Seikhlasnya`)
@@ -960,7 +944,7 @@ case prefix+'slot':
         '🍊 : 🍒 : 🍐',
         '🍒 : 🔔 : 🍊',
         '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
+        '🍊 : 🍋 : 🔔', //Aiman
         '🔔 : 🍒 : 🍐',
         '🔔 : 🍒 : 🍊',
         '🍊 : 🍋 : 🔔',        
@@ -983,7 +967,7 @@ case prefix+'slot':
         '🍊 : 🍒 : 🍐',
         '🍒 : 🔔 : 🍊',
         '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
+        '🍊 : 🍋 : 🔔', //Aiman
         '🔔 : 🍒 : 🍐',
         '🔔 : 🍒 : 🍊',
         '🍊 : 🍋 : 🔔',        
@@ -1002,7 +986,7 @@ case prefix+'slot':
         '🍊 : 🍒 : 🍐',
         '🍒 : 🔔 : 🍊',
         '🍇 : 🍇 : 🍐',
-        '🍊 : 🍋 : 🔔', //Arasya
+        '🍊 : 🍋 : 🔔', //Aiman
         '🔔 : 🍒 : 🍐',
         '🔔 : 🍒 : 🍊',
         '🍊 : 🍋 : 🔔',        
@@ -1942,7 +1926,7 @@ case prefix+'ppcouple':
   case prefix+'ppcp':
     case prefix+'couple':
     var data = await fetchJson(`https://melcanz.com/ppcouple?&apikey=melcantik`)
-    reply("Couplean sama aku yuk")
+    reply("tuh kak")
 conn.sendMessage(from, {caption: `Cowo`, image: {url: data.cowo}}, {quoted: msg})
 conn.sendMessage(from, {caption: `Cewe`, image: {url: data.cewe}}, {quoted: msg})
 limitAdd(sender, limit)
